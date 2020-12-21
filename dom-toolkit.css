@@ -44,8 +44,8 @@ pre {
 /* ========================================================================
    Utilities
  ========================================================================== */
-/* Text */
 
+/* Text */
 .dom-text-8,
 .dom-text-8::before {
     font-size: 8px !important;
@@ -91,9 +91,19 @@ pre {
     font-size: 20px !important;
 }
 
+.dom-text-22,
+.dom-text-22::before {
+    font-size: 22px !important;
+}
+
 .dom-text-24,
 .dom-text-24::before {
     font-size: 24px !important;
+}
+
+.dom-text-26,
+.dom-text-26::before {
+    font-size: 26px !important;
 }
 
 .dom-text-28,
@@ -131,7 +141,7 @@ pre {
     height: 300px;
 }
 
-.dom-height-max-small {
+.dom-max-height-small {
     max-height: 300px;
 }
 
@@ -139,7 +149,7 @@ pre {
     height: 600px;
 }
 
-.dom-height-max-medium {
+.dom-max-height-medium {
     max-height: 600px;
 }
 
@@ -147,7 +157,7 @@ pre {
     height: 900px;
 }
 
-.dom-height-max-large{
+.dom-max-height-large{
     max-height: 900px;
 }
 
@@ -287,18 +297,6 @@ pre {
 .dom-margin-large-bottom,
 .dom-margin-large-bottom\@s {
     margin-bottom: 30px !important;
-}
-
-.dom-margin-bottom-10 {
-    margin-bottom: 10px !important;
-}
-
-.dom-margin-bottom-20 {
-    margin-bottom: 20px !important;
-}
-
-.dom-margin-bottom-12 {
-    margin-bottom: 12px !important;
 }
 
 .dom-margin-small-left,
@@ -460,9 +458,18 @@ pre {
 }
 
 /* Image */
+.dom-image-blur {
+    filter: blur(20px);
+}
+
 .dom-logo {
   max-height: 40px;
   max-width: 150px;
+}
+
+.dom-avatar {
+    max-width: 40px;
+    max-height: 40px;
 }
 
 /* Border */
@@ -470,17 +477,26 @@ pre {
     border: solid !important;
 }
 
-/* Block */
+/* Display Block */
 .dom-display-block {
     display: block !important;
 }
 
-/* Inline Block */
-.dom-display-inline-block {
+/* Display Inline Block */
+.dom-inline-block {
     display: inline-block !important;
 }
 
-/* Flex */
+/* Display Table Caption */
+.dom-table-caption {
+    display: table-caption !important;
+}
+
+/* Display Flex */
+.dom-flex{
+    display: flex !important;
+}
+
 .dom-flex-center {
     display: flex !important;
     align-items: center !important;
@@ -591,11 +607,6 @@ pre {
     box-shadow: inherit !important;
 }
 
-.dom-avatar {
-    max-width: 40px;
-    max-height: 40px;
-}
-
 .dom-no-border {
     border: none !important;
 }
@@ -640,6 +651,17 @@ pre {
     border-bottom: 1px solid #e5e5e5;
 }
 
+.dom-no-wrap {
+    white-space: nowrap;
+}
+
+.dom-break-word {
+    word-break: break-word !important;
+}
+
+.dom-overflow-hidden {
+    overflow: hidden !important;
+}
 /* ========================================================================
    Component: Scrolling
  ========================================================================== */
@@ -665,6 +687,11 @@ pre {
     background-color: #A0A0A0;
 }
 
+/* ========================================================================
+   Component: Colors
+ ========================================================================== */
+
+/* Status */
 .dom-text-info {
     color: #1e87f0 !important;
 }
@@ -708,7 +735,7 @@ pre {
     border-color: #dd2e2e !important;
 }
 
-.dom-no-background {
+.dom-background-remove {
     background: none !important;
 }
 
@@ -728,7 +755,6 @@ pre {
 .dom-bg-black {
     background: #000 !important;
 }
-
 
 .dom-text-grey-dk-000 {
     color: #959396 !important;
@@ -1420,7 +1446,6 @@ table.dataTable.dom-datatable.order-column.hover tbody tr:hover>.sorting_1 {
     /* overflow: hidden; */
 }
 
-
 @media screen and (max-width: 960px) {
     .dom-card\@s{
         width: 100%;
@@ -1542,10 +1567,6 @@ table.dataTable.dom-datatable.order-column.hover tbody tr:hover>.sorting_1 {
 
 .dom-card-background.dom-card-background-transparent {
     filter: none !important;
-}
-
-.uk-border-circle .title {
-    margin: 20px 30px;
 }
 
 .dom-element-card-actions {
@@ -2089,10 +2110,6 @@ ul.dom-element-list-timeline .dom-list-item:last-child:after{
 
 .uk-form-icon:not(.uk-form-icon-flip)~.dom-input {
     padding-left: 40px !important;
-}
-
-.uk-form-icon.dom-form-icon-large {
-    width: auto;
 }
 
 /* RADIO / CHECKBOX */
@@ -2973,6 +2990,7 @@ div.dom-progress-stacked.dom-progress-mini .dom-progress-bar:nth-child(3)[active
         font-size: 14px !important;
     }
 }
+
 /* ========================================================================
    Component: Breadcrumb
  ========================================================================== */
@@ -3086,6 +3104,10 @@ div.dom-progress-stacked.dom-progress-mini .dom-progress-bar:nth-child(3)[active
     border-left-color: #00AACE;
 }
 
+/* ========================================================================
+   Component: Breadcrumb
+ ========================================================================== */
+
 .dom-tab {
     box-sizing: border-box;
     width: 100%;
@@ -3171,9 +3193,3 @@ div.dom-progress-stacked.dom-progress-mini .dom-progress-bar:nth-child(3)[active
     border: solid #fff;
     border-width: 0 2px 0 0;
 } 
-
-.dom-icon-circle::before {
-    border: 2px solid;
-    border-radius: 50%;
-    padding: 20px;
-}
