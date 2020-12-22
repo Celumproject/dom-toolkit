@@ -1,0 +1,322 @@
+@font-face {
+  font-family: 'domicon';
+  src: url('../fonts/domtoolkit/domicon.eot?cav42d');
+  src: url('../fonts/domtoolkit/domicon.eot?cav42d#iefix') format('embedded-opentype'),
+    url('../fonts/domtoolkit/domicon.ttf?cav42d') format('truetype'),
+    url('../fonts/domtoolkit/domicon.woff?cav42d') format('woff'),
+    url('../fonts/domtoolkit/domicon.svg?cav42d#domicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="dom-icon-"], [class*=" dom-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'domicon' !important;
+  speak: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dom-icon-book .path1:before {
+  content: "\e900";
+  color: rgb(255, 255, 255);
+}
+.dom-icon-book .path2:before {
+  content: "\e901";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path3:before {
+  content: "\e902";
+  margin-left: -1.0732421875em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-book .path4:before {
+  content: "\e903";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path5:before {
+  content: "\e904";
+  margin-left: -1.0732421875em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-book .path6:before {
+  content: "\e905";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path7:before {
+  content: "\e906";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path8:before {
+  content: "\e907";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path9:before {
+  content: "\e908";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path10:before {
+  content: "\e909";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path11:before {
+  content: "\e90a";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path12:before {
+  content: "\e90b";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path13:before {
+  content: "\e90c";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path14:before {
+  content: "\e90d";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path15:before {
+  content: "\e90e";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path16:before {
+  content: "\e90f";
+  margin-left: -1.0732421875em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-book .path17:before {
+  content: "\e910";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-book .path18:before {
+  content: "\e911";
+  margin-left: -1.0732421875em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-book .path19:before {
+  content: "\e912";
+  margin-left: -1.0732421875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_content .path1:before {
+  content: "\e913";
+  color: rgb(255, 255, 255);
+}
+.dom-icon-cell_content .path2:before {
+  content: "\e914";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path3:before {
+  content: "\e915";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path4:before {
+  content: "\e916";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path5:before {
+  content: "\e917";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path6:before {
+  content: "\e918";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path7:before {
+  content: "\e919";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path8:before {
+  content: "\e91a";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path9:before {
+  content: "\e91b";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path10:before {
+  content: "\e91c";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path11:before {
+  content: "\e91d";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path12:before {
+  content: "\e91e";
+  margin-left: -0.90234375em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-cell_content .path13:before {
+  content: "\e91f";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path14:before {
+  content: "\e920";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path15:before {
+  content: "\e921";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path16:before {
+  content: "\e922";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path17:before {
+  content: "\e923";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path18:before {
+  content: "\e924";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path19:before {
+  content: "\e925";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path20:before {
+  content: "\e926";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path21:before {
+  content: "\e927";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_content .path22:before {
+  content: "\e928";
+  margin-left: -0.90234375em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_test .path1:before {
+  content: "\e929";
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_test .path2:before {
+  content: "\e92a";
+  margin-left: -1.1171875em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_test .path3:before {
+  content: "\e92b";
+  margin-left: -1.1171875em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-cell_test .path4:before {
+  content: "\e92c";
+  margin-left: -1.1171875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_test .path5:before {
+  content: "\e92d";
+  margin-left: -1.1171875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_test .path6:before {
+  content: "\e92e";
+  margin-left: -1.1171875em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-cell_test .path7:before {
+  content: "\e92f";
+  margin-left: -1.1171875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_test .path8:before {
+  content: "\e930";
+  margin-left: -1.1171875em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-cell_test .path9:before {
+  content: "\e931";
+  margin-left: -1.1171875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_test .path10:before {
+  content: "\e932";
+  margin-left: -1.1171875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_test .path11:before {
+  content: "\e933";
+  margin-left: -1.1171875em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-cell_test .path12:before {
+  content: "\e934";
+  margin-left: -1.1171875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_test .path13:before {
+  content: "\e935";
+  margin-left: -1.1171875em;
+  color: rgb(255, 255, 255);
+}
+.dom-icon-cell_test .path14:before {
+  content: "\e936";
+  margin-left: -1.1171875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_test .path15:before {
+  content: "\e937";
+  margin-left: -1.1171875em;
+  color: rgb(26, 26, 26);
+}
+.dom-icon-cell_test .path16:before {
+  content: "\e938";
+  margin-left: -1.1171875em;
+  color: rgb(0, 0, 0);
+}
+.dom-icon-class_room:before {
+  content: "\e939";
+}
+.dom-icon-knowledge_cell:before {
+  content: "\e93a";
+}
+.dom-icon-program:before {
+  content: "\e93b";
+}
+.dom-icon-user:before {
+  content: "\e93c";
+}

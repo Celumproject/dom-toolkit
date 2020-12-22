@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'domicon';
+    src: url('../fonts/domicon.eot');
+    src: url('../fonts/domicon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/domicon.woff') format('woff'),
+         url('../fonts/domicon.ttf') format('truetype'),
+         url('../fonts/domicon.svg#domicon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*='dom-icon-']:before {
+    font-size: 24px;
+    display: inline-block;
+    font-family: 'domicon';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: -30%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.dom-icon-admin:before{content:'\0041';}
+.dom-icon-book:before{content:'\0042';}
+.dom-icon-cell_content:before{content:'\0043';}
+.dom-icon-cell_test:before{content:'\0044';}
+.dom-icon-class_room:before{content:'\0045';}
+.dom-icon-editor:before{content:'\0046';}
+.dom-icon-engineer:before{content:'\0047';}
+.dom-icon-hr:before{content:'\0048';}
+.dom-icon-knowledge_cell:before{content:'\0049';}
+.dom-icon-program:before{content:'\004a';}
+.dom-icon-role:before{content:'\004b';}
+.dom-icon-session_admin:before{content:'\004c';}
+.dom-icon-student:before{content:'\004d';}
+.dom-icon-superadmin:before{content:'\004e';}
+.dom-icon-trainer:before{content:'\004f';}
+.dom-icon-tutor:before{content:'\0050';}
+.dom-icon-user:before{content:'\0051';}

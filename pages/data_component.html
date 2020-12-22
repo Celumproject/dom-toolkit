@@ -1,0 +1,306 @@
+<div class="row">
+    <div class="col-md-12 left-align">
+        <h2 class="dark-text">Data component <a href="#top">#back to top</a>
+            <hr>
+        </h2>
+    </div>
+    <!-- end col -->
+</div>
+<!-- end row -->
+
+<h4 id="data_component_1">Progress</h4>
+
+<div class="code-example">
+    <progress class="dom-progress uk-width" max="100" value="70"> 70% </progress>
+</div>
+<div class="language-html highlighter-rouge">
+    <div class="highlight">
+        <pre class="highlight">
+                                    <code>
+<span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"dom-progress uk-width"</span> <span class="na">max=</span><span class="s">"100"</span> <span class="na">value=</span><span class="s">"70"</span><span class="nt">&gt;</span> 70% <span class="nt">&lt;/progress&gt;</span>
+                                    </code>
+                                </pre>
+    </div>
+</div>
+
+<br>
+<h4>Stacked Progress Bars</h4>
+
+<div class="code-example">
+    <div class="dom-progress-stacked uk-margin-top uk-margin-large-bottom">
+        <div class="dom-progress-bar dom-bg-tertiary" label="Court terme" active></div>
+        <div class="dom-progress-bar" label="Moyen terme"></div>
+        <div class="dom-progress-bar" label="Long terme"></div>
+    </div>
+
+    <div class="dom-progress-stacked uk-margin-top uk-margin-large-bottom">
+        <div class="dom-progress-bar" label="Court terme"></div>
+        <div class="dom-progress-bar dom-bg-tertiary" label="Moyen terme" active></div>
+        <div class="dom-progress-bar" label="Long terme"></div>
+    </div>
+
+    <div class="dom-progress-stacked uk-margin-top uk-margin-large-bottom">
+        <div class="dom-progress-bar" label="Court terme"></div>
+        <div class="dom-progress-bar" label="Moyen terme"></div>
+        <div class="dom-progress-bar dom-bg-tertiary" label="Long terme" active></div>
+    </div>
+</div>
+<div class="language-html highlighter-rouge">
+    <div class="highlight">
+        <pre class="highlight">
+                                    <code>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-stacked uk-margin-top uk-margin-large-bottom"</span><span class="nt">&gt;</span> 
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar dom-bg-tertiary"</span> <span class="na">label=</span><span class="s">"Court terme"</span> <span class="na">active</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar"</span> <span class="na">label=</span><span class="s">"Moyen terme"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar"</span> <span class="na">label=</span><span class="s">"Long terme"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-stacked uk-margin-top uk-margin-large-bottom"</span><span class="nt">&gt;</span> 
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar"</span> <span class="na">label=</span><span class="s">"Court terme"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar dom-bg-tertiary"</span> <span class="na">label=</span><span class="s">"Moyen terme"</span> <span class="na">active</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar"</span> <span class="na">label=</span><span class="s">"Long terme"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-stacked uk-margin-top uk-margin-large-bottom"</span><span class="nt">&gt;</span> 
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar"</span> <span class="na">label=</span><span class="s">"Court terme"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar"</span> <span class="na">label=</span><span class="s">"Moyen terme"</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-progress-bar dom-bg-tertiary"</span> <span class="na">label=</span><span class="s">"Long terme"</span> <span class="na">active</span><span class="nt">&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+                                    </code>
+                                </pre>
+    </div>
+</div>
+<!-- end row -->
+
+<br>
+
+<h4 id="data_component_2">Data text/icon display</h4>
+
+<div class="code-example">
+    <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+        <div class="dom-flex-center dom-text-primary">
+            <div class="dom-data">
+                <span uk-icon="icon: check; ratio: 2.5"></span>
+            </div>
+            <div class="dom-data-number uk-margin-left">
+                3<sup><small>/5</small></sup>
+            </div>
+        </div>
+        <div class="dom-flex-center dom-text-secondary">
+            <div class="dom-data">
+                <span uk-icon="icon: clock; ratio: 2.5"></span>
+            </div>
+            <div class="dom-data-number uk-margin-left">
+                2:51
+            </div>
+        </div>
+        <div class="dom-flex-center dom-text-tertiary">
+            <div class="dom-data">
+                <span uk-icon="icon: calendar; ratio: 2.5"></span>
+            </div>
+            <div class="dom-data-label uk-margin-left">
+                Lorem ipsum
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge">
+    <div class="highlight">
+        <pre class="highlight">
+                                    <code>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-grid-divider uk-child-width-expand@s"</span> <span class="na">uk-grid</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-flex-center dom-text-primary"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data"</span><span class="nt">&gt;</span><span class="nt">&lt;span</span> <span class="na">uk-icon=</span><span class="s">"icon: check; ratio: 2.5"</span><span class="nt">&gt;</span><span class="nt">&lt;/span&gt;</span><span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data-number uk-margin-left"</span><span class="nt">&gt;</span>3<span class="nt">&lt;sup&gt;</span><span class="nt">&lt;small&gt;</span>/5<span class="nt">&lt;/small&gt;</span><span class="nt">&lt;/sup&gt;</span><span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-flex-center dom-text-secondary"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data"</span><span class="nt">&gt;</span><span class="nt">&lt;span</span> <span class="na">uk-icon=</span><span class="s">"icon: clock; ratio: 2.5"</span><span class="nt">&gt;</span><span class="nt">&lt;/span&gt;</span><span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data-number uk-margin-left"</span><span class="nt">&gt;</span>2:51<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-flex-center dom-text-tertiary"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data"</span><span class="nt">&gt;</span><span class="nt">&lt;span</span> <span class="na">uk-icon=</span><span class="s">"icon: calendar; ratio: 2.5"</span><span class="nt">&gt;</span><span class="nt">&lt;/span&gt;</span><span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data-label uk-margin-left"</span><span class="nt">&gt;</span>Lorem ipsum<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+                                    </code>
+                                </pre>
+    </div>
+</div>
+<!-- end row -->
+
+<hr>
+
+<h4>Small data display</h4>
+
+<div class="code-example">
+    <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+        <div class="dom-flex-center dom-text-primary">
+            <div class="dom-data small">
+                <span uk-icon="icon: check; ratio: 1.5"></span>
+            </div>
+            <div class="dom-data-number small uk-margin-left">
+                3<sup><small>/5</small></sup>
+            </div>
+        </div>
+        <div class="dom-flex-center dom-text-secondary">
+            <div class="dom-data small">
+                <span uk-icon="icon: clock; ratio: 1.5"></span>
+            </div>
+            <div class="dom-data-number small uk-margin-left">
+                2:51
+            </div>
+        </div>
+        <div class="dom-flex-center dom-text-tertiary">
+            <div class="dom-data small">
+                <span uk-icon="icon: calendar; ratio: 1.5"></span>
+            </div>
+            <div class="dom-data-label small uk-margin-left">
+                Lorem ipsum
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge">
+    <div class="highlight">
+        <pre class="highlight">
+                                    <code>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-grid-divider uk-child-width-expand@s"</span> <span class="na">uk-grid</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-flex-center dom-text-primary"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data small"</span><span class="nt">&gt;</span><span class="nt">&lt;span</span> <span class="na">uk-icon=</span><span class="s">"icon: check; ratio: 1.5"</span><span class="nt">&gt;</span><span class="nt">&lt;/span&gt;</span><span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data-number small uk-margin-left"</span><span class="nt">&gt;</span>3<span class="nt">&lt;sup&gt;</span><span class="nt">&lt;small&gt;</span>/5<span class="nt">&lt;/small&gt;</span><span class="nt">&lt;/sup&gt;</span><span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-flex-center dom-text-secondary"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data small"</span><span class="nt">&gt;</span><span class="nt">&lt;span</span> <span class="na">uk-icon=</span><span class="s">"icon: clock; ratio: 1.5"</span><span class="nt">&gt;</span><span class="nt">&lt;/span&gt;</span><span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data-number small uk-margin-left"</span><span class="nt">&gt;</span>2:51<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-flex-center dom-text-tertiary"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data small"</span><span class="nt">&gt;</span><span class="nt">&lt;span</span> <span class="na">uk-icon=</span><span class="s">"icon: calendar; ratio: 1.5"</span><span class="nt">&gt;</span><span class="nt">&lt;/span&gt;</span><span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data-label small uk-margin-left"</span><span class="nt">&gt;</span>Lorem ipsum<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+                                    </code>
+                                </pre>
+    </div>
+</div>
+<!-- end row -->
+
+<hr>
+
+<h4>Badges</h4>
+
+<div class="code-example">
+    <div class="uk-child-width-expand@s" uk-grid>
+        <div class="dom-text-primary">
+            <div class="dom-grey-card dom-flex-center">
+                <div class="dom-data small">
+                    <span uk-icon="icon: yelp; ratio: 1.5"></span>
+                </div>
+                <div class="dom-data-label small uk-margin-left">
+                    Badge 1
+                </div>
+            </div>
+        </div>
+        <div class="dom-text-primary">
+            <div class="dom-grey-card dom-flex-center">
+                <div class="dom-data small">
+                    <span uk-icon="icon: yelp; ratio: 1.5"></span>
+                </div>
+                <div class="dom-data-label small uk-margin-left">
+                    Badge 2
+                </div>
+            </div>
+        </div>
+        <div class="dom-text-primary">
+            <div class="dom-grey-card dom-flex-center">
+                <div class="dom-data small">
+                    <span uk-icon="icon: yelp; ratio: 1.5"></span>
+                </div>
+                <div class="dom-data-label small uk-margin-left">
+                    Badge 3
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge">
+    <div class="highlight">
+        <pre class="highlight">
+                                    <code>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-child-width-expand@s"</span> <span class="na">uk-grid</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-text-primary"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-grey-card dom-flex-center"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data small"</span><span class="nt">&gt;</span><span class="nt">&lt;span</span> <span class="na">uk-icon=</span><span class="s">"icon: yelp; ratio: 1.5"</span><span class="nt">&gt;</span><span class="nt">&lt;/span&gt;</span><span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data-label small uk-margin-left"</span><span class="nt">&gt;</span>Badge 1<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    ...
+<span class="nt">&lt;/div&gt;</span>
+                                    </code>
+                                </pre>
+    </div>
+</div>
+<!-- end row -->
+
+<hr>
+<h4>Vertical badges</h4>
+
+<div class="code-example">
+    <div class="uk-child-width-expand@s" uk-grid>
+        <div class="dom-text-primary">
+            <div class="dom-grey-card dom-flex-center dom-flex-column">
+                <div class="dom-data small">
+                    <span uk-icon="icon: yelp; ratio: 1.5"></span>
+                </div>
+                <div class="dom-data-label small uk-margin-small-top">
+                    Vertical badge 1
+                </div>
+            </div>
+        </div>
+        <div class="dom-text-primary">
+            <div class="dom-grey-card dom-flex-center dom-flex-column">
+                <div class="dom-data small">
+                    <span uk-icon="icon: yelp; ratio: 1.5"></span>
+                </div>
+                <div class="dom-data-label small uk-margin-small-top">
+                    Vertical badge 2
+                </div>
+            </div>
+        </div>
+        <div class="dom-text-primary">
+            <div class="dom-grey-card dom-flex-center dom-flex-column">
+                <div class="dom-data small">
+                    <span uk-icon="icon: yelp; ratio: 1.5"></span>
+                </div>
+                <div class="dom-data-label small uk-margin-small-top">
+                    Vertical badge 3
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="language-html highlighter-rouge">
+    <div class="highlight">
+        <pre class="highlight">
+                                    <code>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"uk-child-width-expand@s"</span> <span class="na">uk-grid</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-text-primary"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-grey-card dom-flex-center dom-flex-column"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data small"</span><span class="nt">&gt;</span><span class="nt">&lt;span</span> <span class="na">uk-icon=</span><span class="s">"icon: yelp; ratio: 1.5"</span><span class="nt">&gt;</span><span class="nt">&lt;/span&gt;</span><span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dom-data-label small uk-margin-small-top"</span><span class="nt">&gt;</span>Vertical badge 1<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    ...
+<span class="nt">&lt;/div&gt;</span>
+                                    </code>
+                                </pre>
+    </div>
+</div>
+<!-- end row -->

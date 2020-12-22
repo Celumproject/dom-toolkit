@@ -1,0 +1,4 @@
+AuthName "Domoscio front-end toolkit restricted access"
+AuthType Basic
+AuthUserFile "/home/domoscio/www/toolkit/.htpasswd"
+Require valid-user
