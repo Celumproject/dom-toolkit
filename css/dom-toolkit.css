@@ -1166,6 +1166,58 @@ a.dom-button:hover {
     font-size: 0.875rem;
 }
 
+
+/* Size modifiers
+ ========================================================================== */
+ .dom-button-group{
+    display: inline-flex;
+    vertical-align: middle;
+    position: relative;
+}
+
+.dom-button-group .dom-button{
+    border-radius: 0;
+    border-right-width: 0;
+}
+
+.dom-button-group .dom-button:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+.dom-button-group .dom-button:last-child{
+    border-radius: 0 5px 5px 0;
+    border-right-width: 1px;
+}
+
+.dom-button-group[class*="dom-button-group-break-"]{
+    flex-flow: row wrap;
+    display: flex;
+}
+.dom-button-group[class*="dom-button-group-break-"] .dom-button{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    border-right-width: 1px;
+}
+.dom-button-group.dom-button-group-break-x2 .dom-button{ flex-basis: 100%;}
+.dom-button-group.dom-button-group-break-x2 .dom-button:nth-child(1){ border-radius: 5px 5px 0 0;}
+.dom-button-group.dom-button-group-break-x2 .dom-button:nth-child(2){ border-radius: 0 0 5px 5px;}
+
+.dom-button-group.dom-button-group-break-x3 .dom-button:nth-child(1){ border-radius: 5px 0 0 0;}
+.dom-button-group.dom-button-group-break-x3 .dom-button:nth-child(2){ border-radius: 0 5px 0 0;}
+.dom-button-group.dom-button-group-break-x3 .dom-button:nth-child(3){ border-radius: 0 0 5px 5px;}
+
+.dom-button-group.dom-button-group-break-x4 .dom-button:nth-child(1){ border-radius: 5px 0 0 0;}
+.dom-button-group.dom-button-group-break-x4 .dom-button:nth-child(2){ border-radius: 0 5px 0 0;}
+.dom-button-group.dom-button-group-break-x4 .dom-button:nth-child(3){ border-radius: 0 0 0 5px;}
+.dom-button-group.dom-button-group-break-x4 .dom-button:nth-child(4){ border-radius: 0 0 5px 0;}
+
+.dom-button-group.dom-button-group-break-x5 .dom-button:nth-child(1){ border-radius: 5px 0 0 0;}
+.dom-button-group.dom-button-group-break-x5 .dom-button:nth-child(2){ border-radius: 0 5px 0 0;}
+.dom-button-group.dom-button-group-break-x5 .dom-button:nth-child(3){ border-radius: 0;}
+.dom-button-group.dom-button-group-break-x5 .dom-button:nth-child(4){ border-radius: 0;}
+.dom-button-group.dom-button-group-break-x5 .dom-button:nth-child(5){ border-radius: 0 0 5px 5px;}
+
 /* ========================================================================
    Component: Navigation Link
  ========================================================================== */
