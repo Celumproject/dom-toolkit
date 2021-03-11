@@ -428,6 +428,42 @@ pre {
     padding-left: 30px !important;
 }
 
+.dom-padding-small-horizontal, 
+.dom-padding-small-horizontal\@s {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.dom-padding-horizontal, 
+.dom-padding-horizontal\@s {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.dom-padding-large-horizontal, 
+.dom-padding-large-horizontal\@s {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.dom-padding-small-vertical, 
+.dom-padding-small-vertical\@s {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.dom-padding-vertical, 
+.dom-padding-vertical\@s {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.dom-padding-large-vertical, 
+.dom-padding-large-vertical\@s {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
 .dom-padding-remove {
     padding: inherit !important;
     padding: 0 !important;
