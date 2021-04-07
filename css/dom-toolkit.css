@@ -1884,7 +1884,8 @@ ul.dom-element-list-timeline .dom-list-item {
     margin-left: 16px;
 }
 
-.dom-element-list .dom-list-action>a {
+.dom-element-list .dom-list-action>a,
+.dom-element-list .dom-list-action>button {
     width: 26px;
     height: 26px;
     margin: 0 15px;
