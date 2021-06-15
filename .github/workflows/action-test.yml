@@ -24,9 +24,14 @@ jobs:
       - name: check for changes
         run: git status
 
-      - name: Add and commit the new file
-        uses: EndBug/add-and-commit@v7
-        with:
-          message: 'Add the very useful text file'
-          add: '*.css --force'
-          cwd: './pathToRepo/'
+      - name: stage changed files
+        run: git add .
+
+      - name: commit changed files
+        run: git commit -m "Auto updating dom-toolkit.css"
+
+      - name: fetch from github-actions
+        run: git fetch origin github-actions
+
+      - name: push code to github-actions
+        run: git push origin HEAD:github-actions
