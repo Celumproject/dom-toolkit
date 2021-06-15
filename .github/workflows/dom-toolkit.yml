@@ -1,0 +1,41 @@
+name: Workflow to auto update DomToolkit files
+
+on: [push]
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    name: DomToolkit AutoUpdate 
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Download files
+        uses: carlosperate/download-file-action@v1.0.3
+        id: download-toolkit-file
+        with:
+          file-url: 'https://lock.demo.domoscio.com/assets/libs/dom-toolkit-6a01f0804872a16bdb08215da531584b1e322cfca4c7cdd237a5fabb1f1a503d.css'
+          file-name: 'toolkit-github-actions.css'
+          location: './css'
+      - run: echo "The file was downloaded to ${{ steps.download-toolkit-file.outputs.file-path }}"
+
+      - name: check for changes
+        run: git status
+
+      - name: stage changed files
+        run: git add .
+
+      - name: add email
+        run: git config --global user.email "matthieu.mugnier@hotmail.fr"
+        
+      - name: add email
+        run: git config --global user.name "MatthieuMu"
+
+      - name: commit changed files
+        run: git commit -m "Auto updating dom-toolkit.css"
+
+      - name: fetch from github-actions
+        run: git fetch origin github-actions
+
+      - name: push code to github-actions
+        run: git push origin HEAD:github-actions
