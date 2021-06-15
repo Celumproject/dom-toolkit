@@ -1,0 +1,10 @@
+- name: Download a file
+    uses: carlosperate/download-file-action@v1.0.3
+    id: download-toolkit
+    with:
+        file-url: 'https://lock.demo.domoscio.com/assets/libs/dom-toolkit-6a01f0804872a16bdb08215da531584b1e322cfca4c7cdd237a5fabb1f1a503d.css'
+        file-name: 'toolkit-github-actions.css'
+        location: './css'
+- name: Print the file path
+    run: echo "The file was downloaded to ${{ steps.download-poetry.outputs.file-path }}"
+    
