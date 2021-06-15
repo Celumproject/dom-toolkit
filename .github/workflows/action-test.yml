@@ -27,6 +27,12 @@ jobs:
       - name: stage changed files
         run: git add .
 
+      - name: add email
+        run: git config --global user.email "matthieu.mugnier@hotmail.fr"
+        
+      - name: add email
+        run: git config --global user.name "MatthieuMu"
+
       - name: commit changed files
         run: git commit -m "Auto updating dom-toolkit.css"
 
