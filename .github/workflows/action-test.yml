@@ -19,7 +19,10 @@ jobs:
           location: './css'
       - run: echo "The file was downloaded to ${{ steps.download-toolkit-file.outputs.file-path }}"
 
-      - run: cp ${{ steps.download-toolkit-file.outputs.file-path }} > ./css/toolkit-github-actions.css
+      # - run: cp ${{ steps.download-toolkit-file.outputs.file-path }} > ./css/toolkit-github-actions.css
+
+      - name: check for changes
+        run: git status
 
       - name: Add and commit the new file
         uses: EndBug/add-and-commit@v7
